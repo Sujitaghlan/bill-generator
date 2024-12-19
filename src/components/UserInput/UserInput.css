@@ -1,0 +1,50 @@
+form{
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(247, 234, 218);
+}
+
+form h1{
+  text-align: center;
+}
+
+input{
+  height: 30px;
+}
+
+.contact-info{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact-info #location, .contact-info #contact{
+  width: 45%;
+}
+
+.product-details{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.add{
+  color: #000000;
+}
+
+.btns{
+  display: flex;
+  gap: 20px;
+  height: 30px;
+}
+.btns #preview, .btns #download{
+  width: 30%; 
+  background-color: rgb(244, 171, 69);
+  border: none;
+  border-radius: 10px;
+}
+

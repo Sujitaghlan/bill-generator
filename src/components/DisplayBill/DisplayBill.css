@@ -1,0 +1,45 @@
+.display-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #000000;
+  padding: 10px;
+  background-color: rgb(253, 248, 240);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo img{
+  width: 20px;
+  border-radius: 50%;
+}
+table{
+  margin: 15px;
+}
+table, tr, th, td{
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  padding: 20px;
+  align-items: center;
+}
+
+table caption{
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #000000;
+  padding: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px dashed #000000;
+}
