@@ -6,6 +6,7 @@ form{
   gap: 20px;
   padding: 20px;
   background-color: rgb(247, 234, 218);
+  height: fit-content;
 }
 
 form h1{

@@ -11,7 +11,6 @@ const StoreContextProvider = (props) => {
   contact: ""
 })
   const [theme, setTheme] = useState('light');
-  const [download, setDownload] = useState(false);
 
   return(
     <StoreContext.Provider value={{productDetails, 
