@@ -8,6 +8,7 @@ function DisplayBill(){
   const {productDetails, logo, companyDetails, theme} = useContext(StoreContext);
   const pdfRef = useRef(null);
 
+  //function to download a bill
   function downloadBill() {
     const input = pdfRef.current;
     html2canvas(input).then((canvas) => {
@@ -32,7 +33,7 @@ function DisplayBill(){
           <img src={logo} alt="" />
           <span>{companyDetails.companyName}</span>
         </div>
-        {new Date().getFullYear() + "/" + new Date().getMonth() + "/" + new Date().getDay()}
+        {new Date().getFullYear() + "/" + (parseInt(new Date().getMonth())+1)  + "/" + new Date().getDate()}
       </header>
       <table>
         <caption>Product Bill</caption>
@@ -46,6 +47,7 @@ function DisplayBill(){
           </tr>
         </thead>
        <tbody>
+        {/* function to display each element */}
           {productDetails.map((item, index) => (
             <tr>
               <td>{index+1}</td>

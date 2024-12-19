@@ -15,6 +15,7 @@ form h1{
 
 input{
   height: 30px;
+  outline: none;
 }
 
 .contact-info{
@@ -33,19 +34,16 @@ input{
   gap: 10px;
 }
 
-.add{
-  color: #000000;
-}
 
 .btns{
   display: flex;
   gap: 20px;
   height: 30px;
 }
-.btns #preview, .btns #download{
-  width: 30%; 
+.btns #preview, .btns #add{
   background-color: rgb(244, 171, 69);
   border: none;
   border-radius: 10px;
+  padding: 10px;
 }
 

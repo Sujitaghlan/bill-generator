@@ -3,12 +3,14 @@
   justify-content: flex-end;
   padding: 20px;
 }
+
 button{
   border: none;
   padding: 10px;
   border-radius: 5px;
   color: #ffffff;
 }
+
 .light-btn{
   background-color: #007BFF;
 }

@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
   companyName: "",
   location: "",
   contact: ""
-})
+  })
   const [theme, setTheme] = useState('light');
 
   return(
